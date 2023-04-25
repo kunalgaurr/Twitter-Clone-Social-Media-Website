@@ -1,0 +1,40 @@
+#leftbar-container {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  border-right: var(--border);
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+#leftbar-wrapper {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  box-sizing: border-box;
+}
+.leftbar-item {
+  padding: 1vh 1vw;
+  display: flex;
+  align-items: center;
+  color: white;
+  text-decoration: none;
+  gap: 2vw;
+  font-size: 1.5rem;
+  border-radius: 50px;
+  width: fit-content;
+  position: relative;
+}
+.leftbar-item:hover {
+  background-color: #26262670;
+}
+#leftbar-tweet-button {
+  background-color: var(--blue);
+  text-align: center;
+  color: white;
+  padding: 1.5vh 0;
+  font-size: 1.5rem;
+  border-radius: 50px;
+  text-decoration: none;
+}

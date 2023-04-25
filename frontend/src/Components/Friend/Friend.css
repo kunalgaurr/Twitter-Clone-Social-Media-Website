@@ -1,0 +1,17 @@
+#friend-container {
+  display: flex;
+  align-items: center;
+  padding: 1vh 1vw;
+  gap: 1vw;
+  width: 100%;
+  border-radius: 50px;
+}
+#friend-container:hover {
+  background-color: #2222224a;
+}
+#friend-img {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  object-fit: cover;
+}

@@ -1,0 +1,27 @@
+#topbar-container {
+  display: flex;
+  align-items: center;
+  padding: 1vh 1vw;
+  gap: 1vw;
+  position: sticky;
+  top: 0;
+  left: initial;
+  backdrop-filter: blur(5px) brightness(50%);
+  border-bottom: var(--border);
+}
+#topbar-link {
+  font-size: 1.5rem;
+  color: white;
+}
+#topbar-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#topbar-title {
+  font-size: 1.2rem;
+}
+#topbar-text {
+  color: grey;
+  font-size: 0.8rem;
+}

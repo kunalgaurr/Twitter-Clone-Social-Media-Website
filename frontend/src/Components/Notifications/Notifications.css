@@ -1,0 +1,19 @@
+#notifications-container {
+  display: flex;
+  align-items: center;
+  padding: 1vh 1vw;
+  border-bottom: var(--border);
+  gap: 1vw;
+}
+#notification-image {
+  height: 30px;
+  width: 30px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+#notification-text > span {
+  font-weight: 500;
+}
+#notification-duration {
+  color: grey;
+}

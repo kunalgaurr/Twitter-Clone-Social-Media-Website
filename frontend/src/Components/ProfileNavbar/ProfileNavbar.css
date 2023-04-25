@@ -1,0 +1,17 @@
+#profile-navbar-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  border-bottom: var(--border);
+}
+.profile-navbar-items {
+  text-decoration: none;
+  padding: 1.5vh 0;
+  display: grid;
+  place-items: center;
+  color: white;
+  font-weight: 500;
+}
+.profile-navbar-items:hover {
+  border-bottom: 5px solid var(--blue);
+  background-color: #2727278a;
+}

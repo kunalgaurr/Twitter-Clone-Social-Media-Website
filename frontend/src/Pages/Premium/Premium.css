@@ -1,0 +1,30 @@
+#premium-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: 2vw;
+  padding: 1vh 1vw;
+}
+#premium-heading {
+  font-weight: 600;
+  font-size: 2vw;
+}
+#twitter-premium-img {
+  height: 10vw;
+  width: 10vw;
+}
+#premium-terms {
+  padding: 2vh 2vw;
+}
+#twitter-premium-button {
+  background-color: var(--blue);
+  padding: 0.5vh 1vw;
+  border: none;
+  border-radius: 50px;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 2vh 0;
+  color: white;
+  cursor: pointer;
+}

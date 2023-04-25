@@ -1,0 +1,22 @@
+#friend-list-container {
+  padding: 1vh 1vw;
+}
+#friend-search {
+  background-color: #1b1c1f;
+  padding: 1vh 1vw;
+  border-radius: 50px;
+}
+#friend-search-input {
+  width: 100%;
+  background: none;
+  border: none;
+  outline: none;
+  font-size: 1.2rem;
+  color: white;
+}
+#friend-list {
+  display: flex;
+  gap: 10px;
+  padding: 2vh 0;
+  flex-direction: column;
+}

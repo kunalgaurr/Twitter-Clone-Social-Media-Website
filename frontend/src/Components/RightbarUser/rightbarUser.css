@@ -1,0 +1,31 @@
+#rightbar-user-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-decoration: none;
+  color: white;
+  width: 100%;
+}
+#rightbar-user-img {
+  object-fit: cover;
+  border-radius: 50%;
+  height: 3.5vw;
+}
+#rightbar-user-info {
+  display: flex;
+  flex-direction: column;
+}
+#rightbar-user-name {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+#rightbar-user-username {
+  color: grey;
+}
+#rightbar-follow-button {
+  padding: 1vh 1vw;
+  color: black;
+  background-color: white;
+  border-radius: 50px;
+  cursor: pointer;
+}
